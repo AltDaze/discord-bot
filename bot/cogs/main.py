@@ -9,8 +9,7 @@ from bot.cogs.user import register_user_cogs
 def register_all_cogs(bot: Bot) -> None:
     cogs = (
         register_user_cogs,
-        register_admin_cogs,
-        register_other_cogs,
+        register_admin_cogs
     )
     for cog in cogs:
         cog(bot)

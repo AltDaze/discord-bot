@@ -160,6 +160,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+*.toml
 static/
 telegram_bot/database/FileDatabase/Database.db
 

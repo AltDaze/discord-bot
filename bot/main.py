@@ -14,10 +14,10 @@ PREFIX = config['discord']['prefix']
 
 
 def start_bot():
-    intents = Intents.default()
+    intents = Intents.all()
     # intents.message_content = True
 
-    bot = Bot(PREFIX, intents=intents)
+    bot = Bot(command_prefix=PREFIX, intents=intents)
 
     register_all_cogs(bot)
 
